@@ -4,3 +4,4 @@
 # optional
 **/bazel-**
 
+**/MODULE.bazel.lock
