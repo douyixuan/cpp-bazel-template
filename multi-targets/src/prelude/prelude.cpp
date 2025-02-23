@@ -3,6 +3,6 @@
 #include <iostream>
 
 int prelude() {
-    std::cout << "Foo!" << std::endl;
+    std::cout << "Prelude!" << std::endl;
     return 0;
 }

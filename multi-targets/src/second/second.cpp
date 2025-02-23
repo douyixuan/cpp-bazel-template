@@ -5,7 +5,7 @@
 #include "prelude/prelude.h"
 
 int second() {
+    std::cout << "Second!" << std::endl;
     foo();
-    std::cout << "Foo!" << std::endl;
     return 0;
 }

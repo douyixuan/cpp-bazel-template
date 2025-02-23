@@ -6,7 +6,11 @@ bazel build main
 # Target //src:hello-world up-to-date:
 #   bazel-bin/src/hello-world
 
-./src/bazel-bin/main
+./bazel-bin/main
+# Hello, World!
+# Prelude!
+# Second!
+# Foo!
 
 set -x
 bazel query "deps(//:main)" --noimplicit_deps --output graph | dot -Tpng > deps.png
